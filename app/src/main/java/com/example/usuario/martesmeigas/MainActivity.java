@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                 }
+                //Mostramos el genero en un Toast
                 Toast.makeText(MainActivity.this, "El genero es "+result, Toast.LENGTH_LONG).show();
             }
 
